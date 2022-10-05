@@ -18,5 +18,5 @@ app.get('./service', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('I am live again');
+  console.log(`I'm live again ${port}`);
 });
